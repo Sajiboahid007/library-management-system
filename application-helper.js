@@ -29,11 +29,9 @@ const getFormData = (formId) => {
   const form = document.getElementById(formId);
   const formData = {};
 
-  // Loop through all elements in the form
   for (let i = 0; i < form.elements.length; i++) {
     const field = form.elements[i];
     if (field.name) {
-      // Only include elements with a 'name' attribute
       formData[field.name] = field.value;
     }
   }
