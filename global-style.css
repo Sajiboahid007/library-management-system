@@ -7,3 +7,23 @@
 .table > thead {
   background-color: #ccffcc;
 }
+
+.badge-custom-danger {
+  background-color: #e63946;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 0.5em 0.8em;
+  display: inline-block;
+}
+
+.badge-custom-success {
+  background-color: green;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 0.5em 0.8em;
+  display: inline-block;
+}
