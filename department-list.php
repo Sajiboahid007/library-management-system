@@ -9,7 +9,7 @@ include('./sidebar.php');
     <div class="col-sm-4">
 
     </div>
-    <div style="text-align: right;" class="col-sm-4">
+    <div class="col-sm-4 text-end">
         <button id="createNew" class="btn btn-success btn-sm">
             <i class="fa fa-plus"></i> Add
         </button>

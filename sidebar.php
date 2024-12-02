@@ -4,18 +4,18 @@
     <h2 class="px-3">Sidebar</h2>
     <ul class="nav flex-column px-3">
       <li class="nav-item">
-        <a class="nav-link" href="./department-list.php">Department Dashboard</a>
+        <a class="nav-link" href="index.php">Dashboard</a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link link-press"
-          href="./department-list.php">
-          Department List
+          href="department-list.php">
+          Department
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link link-press" href="./booklist.php">
-          Book
+        <a class="nav-link link-press" href="student-list.php">
+          Student
         </a>
       </li>
       <li class="nav-item">
