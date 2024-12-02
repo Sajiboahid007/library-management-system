@@ -10,7 +10,9 @@ const successMessage = (message = "Successfully Saved") => {
 
 const errorMessage = (error) => {
   let message = "Something went wrong!";
-  if (error?.statusText) {
+  if (error?.responseJSON?.message) {
+    message = error?.responseJSON?.message;
+  } else if (error?.statusText) {
     message = error?.statusText;
   } else if (error?.message) {
     message = error?.message;
